@@ -1,2 +1,0 @@
-# howlambda
-Testes com Lambda
