@@ -56,7 +56,7 @@ class S3Writer(DataWriter):
     def _write_file_to_s3(self):
         self.s3.put_object(
             Body=self.tempfile,
-            Bucket="belisco-data-lake-raw",
+            Bucket="augusto-data-lake-raw",
             Key=self.key
         )
 
